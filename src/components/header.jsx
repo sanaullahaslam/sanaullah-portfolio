@@ -26,7 +26,6 @@ function Navbar() {
           </Nav>
         </Container>
       </Navbar>
-
       <br />
       <Navbar bg="light" data-bs-theme="light">
         <Container>
