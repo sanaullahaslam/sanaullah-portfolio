@@ -4,7 +4,6 @@ import { Header } from "react-bootstrap/lib/modal";
 function App() {
   return (
     <div>
-      <Navbar/>
       <header/>
     </div>
   );
