@@ -1,5 +1,5 @@
-import React from "react";
-import { Header } from "react-bootstrap/lib/modal";
+import React from 'react';
+import { Modal } from 'react-bootstrap';
 
 function App() {
   return (
