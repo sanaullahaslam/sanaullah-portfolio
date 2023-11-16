@@ -1,42 +1,18 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-function Navbar() {
+import React from 'react';
+
+const Header = () => {
   return (
-    <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar bg="primary" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar bg="light" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
+    <header>
+      <h1>Your Website Title</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
   );
-}
-export default Navbar;
+};
+
+export default Header;
