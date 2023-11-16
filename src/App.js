@@ -1,11 +1,12 @@
 import React from 'react';
-import { Modal } from 'react-bootstrap';
+import Header from '../src/components/Header'; // Adjust the path and case accordingly
 
 function App() {
   return (
     <div>
-      <header/>
+      <Header />
     </div>
   );
 }
+
 export default App;
