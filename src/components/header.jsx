@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Navbar = () => {
+const Header = () => {
   return (
     <nav style={navbarStyle}>
       <div style={leftSideStyle}>
@@ -41,4 +41,4 @@ const rightSideStyle = {
   display: 'flex',
 };
 
-export default Navbar;
+export default Header;
