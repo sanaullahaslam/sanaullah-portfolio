@@ -3,7 +3,9 @@ import './App.css'
 import styled from 'styled-components';
 
 
-const
+const Body =styled.div' 
+background-color: ${({theme})=> theme.Body};
+';
 
 function App() {
   return (
