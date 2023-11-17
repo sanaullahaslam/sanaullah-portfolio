@@ -1,6 +1,9 @@
 import React from 'react';
-import Header from '../src/components/Header'; // Adjust the path and case accordingly
+import './App.css'
+import styled from 'styled-components';
 
+
+const
 
 function App() {
   return (
