@@ -1,45 +1,45 @@
-// Navbar.js
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-import React from 'react';
-
-const Header = () => {
+function Header() {
   return (
-    <nav style={navbarStyle}>
-      <div style={leftSectionStyle}>Sanaullah.</div>
-      <div style={rightSectionStyle}>
-        <a style={linkStyle} href="#home">Home</a>
-        <a style={linkStyle} href="#about">About</a>
-        <a style={linkStyle} href="#contact">Contact Us</a>
-      </div>
-    </nav>
+    <>
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <br />
+      <Navbar bg="primary" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+
+      <br />
+      <Navbar bg="light" data-bs-theme="light">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   );
-};
-
-const navbarStyle = {
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  backgroundColor: '#1a1a1a',
-  padding: '10px',
-  color: '#A6ACAF',
-};
-
-const leftSectionStyle = {
-  fontWeight: 'bold',
-  fontSize: '1.5em',
-  color: '#F0F3F4',
-};
-
-const rightSectionStyle = {
-  display: 'flex',
-  fontWeight: 'bold',
-  color: '#FDFEFE',
-};
-
-const linkStyle = {
-  margin: '0 10px',
-  color: '#fffff',
-  textDecoration: 'none',
-};
+}
 
 export default Header;
