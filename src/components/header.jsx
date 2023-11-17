@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Navbar = () => {
+const Header = () => {
   return (
     <nav style={navbarStyle}>
       <div style={leftSectionStyle}>Sanaullah.</div>
@@ -40,4 +40,4 @@ const linkStyle = {
   textDecoration: 'none',
 };
 
-export default Navbar;
+export default Header;
