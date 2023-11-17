@@ -1,34 +1,44 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// Navbar.js
 
-function Header() {
+import React from 'react';
+
+const Navbar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav style={navbarStyle}>
+      <div style={leftSideStyle}>
+        <span style={brandStyle}>Sanaullah.</span>
+      </div>
+      <div style={rightSideStyle}>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </nav>
   );
-}
+};
 
-export default Header;
+const navbarStyle = {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  padding: '1rem',
+  background: 'black',
+  color: 'white',
+};
+
+const leftSideStyle = {
+  display: 'flex',
+  alignItems: 'center',
+};
+
+const brandStyle = {
+  fontWeight: 'bold',
+  fontSize: '1.5rem',
+  color: 'grey', // Adjust color as needed
+};
+
+const rightSideStyle = {
+  display: 'flex',
+};
+
+export default Navbar;
