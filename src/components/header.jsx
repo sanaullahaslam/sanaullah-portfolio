@@ -33,8 +33,7 @@ const leftSectionStyle = {
 const rightSectionStyle = {
   display: 'flex',
   fontWeight: 'bold',
- 
-  color: '#F0F3F4',
+  color: '#FDFEFE',
 };
 
 const linkStyle = {
