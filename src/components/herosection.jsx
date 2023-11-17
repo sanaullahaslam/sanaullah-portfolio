@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div style={heroStyle}>
       <div style={textContainerStyle}>
         <h1 style={headingStyle}>I am</h1>
-        <h1 style={animationHeadingStyle}>
+        <h1 className="animationHeading">
           <span>Blockchain Developer</span>
           <span>App Developer</span>
           <span>Web Developer</span>
@@ -15,7 +15,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <div style={imageContainerStyle}>
-        {/* {<img src=''>} */}
+        {/* Add your image here */}
         {/* <img src="your-image-source" alt="Your Alt Text" style={imageStyle} /> */}
       </div>
     </div>
@@ -39,12 +39,6 @@ const headingStyle = {
   fontWeight: 'bold',
 };
 
-const animationHeadingStyle = {
-  fontSize: '2.5em',
-  fontWeight: 'bold',
-  overflow: 'hidden',
-};
-
 const imageContainerStyle = {
   flex: '1',
   marginLeft: '50px', // Adjust the space as needed
@@ -54,6 +48,23 @@ const imageStyle = {
   width: '100%',
   height: 'auto',
   borderRadius: '8px',
+};
+
+// CSS styles
+const animationHeadingStyle = {
+  display: 'inline-block',
+  overflow: 'hidden',
+  animation: 'fadeIn 2s ease-in-out', // Adjust the animation duration as needed
+};
+
+// CSS keyframes
+const fadeIn = {
+  '0%': {
+    opacity: 0,
+  },
+  '100%': {
+    opacity: 1,
+  },
 };
 
 export default HeroSection;
