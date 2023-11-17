@@ -2,16 +2,14 @@
 
 import React from 'react';
 
-const Header = () => {
+const Navbar = () => {
   return (
     <nav style={navbarStyle}>
-      <div style={leftSideStyle}>
-        <span style={brandStyle}>Sanaullah.</span>
-      </div>
-      <div style={rightSideStyle}>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+      <div style={leftSectionStyle}>Sanaullah.</div>
+      <div style={rightSectionStyle}>
+        <a style={linkStyle} href="#home">Home</a>
+        <a style={linkStyle} href="#about">About</a>
+        <a style={linkStyle} href="#contact">Contact Us</a>
       </div>
     </nav>
   );
@@ -21,24 +19,25 @@ const navbarStyle = {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: '1rem',
-  background: 'black',
-  color: 'white',
+  backgroundColor: '#1a1a1a',
+  padding: '10px',
+  color: '#F0F3F4',
 };
 
-const leftSideStyle = {
-  display: 'flex',
-  alignItems: 'center',
-};
-
-const brandStyle = {
+const leftSectionStyle = {
   fontWeight: 'bold',
-  fontSize: '1.5rem',
-  color: 'grey', // Adjust color as needed
+  fontSize: '1.5em',
+  color: '#F0F3F4',
 };
 
-const rightSideStyle = {
+const rightSectionStyle = {
   display: 'flex',
 };
 
-export default Header;
+const linkStyle = {
+  margin: '0 10px',
+  color: '#707B7C',
+  textDecoration: 'none',
+};
+
+export default Navbar;
