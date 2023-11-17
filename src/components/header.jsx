@@ -21,7 +21,7 @@ const navbarStyle = {
   alignItems: 'center',
   backgroundColor: '#1a1a1a',
   padding: '10px',
-  color: '#F0F3F4',
+  color: '#A6ACAF',
 };
 
 const leftSectionStyle = {
