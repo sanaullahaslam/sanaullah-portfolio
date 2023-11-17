@@ -32,12 +32,14 @@ const leftSectionStyle = {
 
 const rightSectionStyle = {
   display: 'flex',
+  fontWeight: 'bold',
+ 
   color: '#F0F3F4',
 };
 
 const linkStyle = {
   margin: '0 10px',
-  color: '#707B7C',
+  color: '#fffff',
   textDecoration: 'none',
 };
 
