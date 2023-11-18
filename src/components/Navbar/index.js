@@ -1,7 +1,10 @@
 import React from 'react';
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss3, faBars } from '@fortawesome/free-solid-svg-icons'; // Import the necessary Font Awesome icons
+import { faCss3 } from '@fortawesome/free-brands-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+// or
+// import { faBars } from '@fortawesome/free-brands-svg-icons';
 
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
@@ -15,7 +18,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px', cursor: 'pointer' }}>
             <FontAwesomeIcon icon={faCss3} size="3x" /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
