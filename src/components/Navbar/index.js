@@ -1,8 +1,8 @@
 import React from 'react';
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FaBars } from 'react-icons/fa';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faCss3, faBars } from '@fortawesome/free-solid-svg-icons'; // Import the necessary Font Awesome icons
+
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
