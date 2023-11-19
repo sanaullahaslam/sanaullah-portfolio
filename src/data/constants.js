@@ -14,7 +14,7 @@ export const Bio = {
       "https://drive.google.com/file/d/1hqIs3nSumXIl95VglvA5zu1LXQ4LMnEV/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sanaullah-a-74b65b22b/",
     twitter: "https://twitter.com/SanaullahAslam8?t=G-7IAmmdGBfqBWCKLTtVPg&s=09",
-    insta: "",
+    insta: "https://instagram.com/sanaullahaslam?igshid=YTQwZjQ0NmI0OA==",
     facebook: "https://www.facebook.com/rishav.chanda.165/",
   };
   
