@@ -154,7 +154,6 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
       role: "Fullstack Externship",
       company: "Flipr",
       date: "June 2023 - July 2023",
