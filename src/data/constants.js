@@ -15,7 +15,7 @@ export const Bio = {
     linkedin: "https://www.linkedin.com/in/sanaullah-a-74b65b22b/",
     twitter: "https://twitter.com/SanaullahAslam8?t=G-7IAmmdGBfqBWCKLTtVPg&s=09",
     insta: "https://instagram.com/sanaullahaslam?igshid=YTQwZjQ0NmI0OA==",
-    facebook: "https://www.facebook.com/rishav.chanda.165/",
+    facebook: "https://www.facebook.com/sanaullah.aslambabar",
   };
   
   export const skills = [
@@ -26,11 +26,6 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
-          name: "Redux",
-          image:
-            "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
         },
         {
           name: "Next Js",
