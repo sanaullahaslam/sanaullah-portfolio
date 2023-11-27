@@ -142,10 +142,10 @@ export const Bio = {
     {
       id: 0,
       img: "https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
-      date: "June 2023 - Present",
-      desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+      role: "Android Developer",
+      company: "FirsTechSolutions",
+      date: "June 2019 - october 2020",
+      desc: "Working on the Android application development using Java, Kotlin, and Android Studio.",
       skills: [
         "ReactJS",
         "Redux",
