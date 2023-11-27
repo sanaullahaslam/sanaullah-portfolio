@@ -168,25 +168,6 @@ export const Bio = {
         "JavaScript",
       ],
     },
-    {
-      id: 4,
-      img: "https://media.licdn.com/dms/image/C4D0BAQH4od9HG2K7bw/company-logo_100_100/0/1661484397513?e=1692230400&v=beta&t=IW-eebE0PpFxqZ8Q3UCYYtlAokbhAEqsNePBv2Pmg18",
-      role: "Android Developer Intern",
-      company: "Rudraksha Welffare Foundation",
-      date: "June 2021 - Oct 2021",
-      desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-      skills: [
-        "Android",
-        "Java",
-        "Kotlin",
-        "XML",
-        "Node Js",
-        "Cloud Firestore",
-        "Firebase",
-        "Figma",
-      ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-    },
   ];
   
   export const education = [
