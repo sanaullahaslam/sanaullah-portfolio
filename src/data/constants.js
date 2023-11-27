@@ -169,21 +169,6 @@ export const Bio = {
       ],
     },
     {
-      id: 3,
-      img: "https://media.licdn.com/dms/image/D4D0BAQGfGQHEJt8gPA/company-logo_100_100/0/1666002815185?e=1692230400&v=beta&t=c4obZda4Uh9q6vOcmCbxjoSiExvbvYwEHUlgdY0tU-4",
-      role: "Android Developer",
-      company: "DSC KIIT",
-      date: "Nov2021 - Present",
-      desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-      skills: [
-        "Leadership",
-        "Mobile Application Development",
-        "Kotlin",
-        "XML",
-        "Figma",
-      ],
-    },
-    {
       id: 4,
       img: "https://media.licdn.com/dms/image/C4D0BAQH4od9HG2K7bw/company-logo_100_100/0/1661484397513?e=1692230400&v=beta&t=IW-eebE0PpFxqZ8Q3UCYYtlAokbhAEqsNePBv2Pmg18",
       role: "Android Developer Intern",
