@@ -173,30 +173,27 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
+      Institute: "Sukkur IBA University, Pakistan",
       date: "Oct 2021 - Sep 2025",
-      grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      grade: "2.99 CGPA",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science at Sukkur IBA Unversity, Sindh, Pakistan. I have completed 4 semesters and have a CGPA of 2.99. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.",
+      degree: "Bachelor of Science - BSc, Computer Science",
     },
     {
       id: 1,
-      img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
+      College: "Ustad Bukhari Degree College, Dadu, Pakistan",
+      date: "August 2019 - Apr 2021",
+      grade: "77%",
+      desc: "I completed my class 12 high school education at Ustad Bukhari Degree College UBDC, Dadu, where I studied Science with Engineering.",
+      degree: "Pre-Engineering(XII)",
     },
     {
       id: 2,
-      img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
+      school: "Yasir Public School, Dadu",
+      date: "August 2011 - August 2019",
+      grade: "77.4%",
+      desc: "I completed my class 10 education at Yasir Public School, Dadu.",
+      degree: "(X), Science",
     },
   ];
   
@@ -394,9 +391,7 @@ export const Bio = {
   ];
   
   export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
+    { year: 2021, text: "Started my journey" },
+    { year: 2023, text: "Founded JavaScript Mastery" },
+    { year: 2023, text: "Shared my projects with the world" },
   ];
