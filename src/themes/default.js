@@ -16,6 +16,7 @@ export default {
       text3: "#575C66",
       footerBackground: "#00012B"
     },
+    
     // Breakpoints for responsive design
     breakpoints: {
       sm: 'screen and (max-width: 640px)',
