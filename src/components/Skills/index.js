@@ -23,7 +23,6 @@ gap: 12px;
     flex-direction: column;
 }
 `
-
 export const Title = styled.div`
 font-size: 42px;
 text-align: center;
