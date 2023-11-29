@@ -53,7 +53,6 @@ const SkillsContainer = styled.div`
   gap: 30px;
   justify-content: center;
 `
-
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
