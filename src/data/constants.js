@@ -169,7 +169,6 @@ export const Bio = {
       ],
     },
   ];
-  
   export const education = [
     {
       id: 0,
