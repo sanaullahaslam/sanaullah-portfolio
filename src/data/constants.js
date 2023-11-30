@@ -278,7 +278,6 @@ export const Bio = {
       webapp: "https://speech-emotion-recognition-two.vercel.app/",
     },
   ];
-  
   export const TimeLineData = [
     { year: 2021, text: "Started my journey" },
     { year: 2023, text: "Founded JavaScript Mastery" },
