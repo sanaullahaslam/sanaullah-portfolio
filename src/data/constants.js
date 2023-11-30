@@ -136,8 +136,7 @@ export const Bio = {
         },
       ],
     },
-  ];
-  
+  ];  
   export const experiences = [
     {
       id: 0,
