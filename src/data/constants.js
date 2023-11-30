@@ -198,7 +198,6 @@ export const Bio = {
   ];
   
   export const projects = [
-   
     //     {
     //   id: 3,
     //   title: "Buckoid",
