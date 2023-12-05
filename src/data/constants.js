@@ -204,7 +204,7 @@ export const Bio = {
         "This web is made for school using HTML, CSS, BOOTSTRAP for fronted and still I am working on it espcially on backend using Node js & Express js.",
       image:
     "",
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+      tags: ["HTML", "CSS", "BOOTSTRAP", "NODE JS", "EXPRESS JS"],
       category: "android app",
       github: "https://github.com/rishavchanda/Buckoid-Android-App",
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
