@@ -220,7 +220,7 @@ export const Bio = {
         "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
       tags: ["HTML", "CSS", "API", "Node JS"],
       category: "web app",
-    //  github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
+      github: "https://github.com/sanaullahaslam/CryPriceTrack",
       webapp: "https://cry-price-track.vercel.app/",
     },
    
