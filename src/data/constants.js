@@ -206,7 +206,7 @@ export const Bio = {
     "",
       tags: ["HTML", "CSS", "BOOTSTRAP", "NODE JS", "EXPRESS JS"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
+      github: "https://github.com/sanaullahaslam/Website_for_School/tree/main",
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
     },
    
