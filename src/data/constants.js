@@ -237,7 +237,7 @@ export const Bio = {
     //  github: "https://github.com/rishavchanda/Todo-Web-App",
      // webapp: "https://rishav-react-todo.netlify.app/",
     },
-    
+
     {
       id: 6,
       title: "Breaking Bad",
@@ -251,6 +251,7 @@ export const Bio = {
     //  github: "https://github.com/rishavchanda/Breaking-Bad",
      // webapp: "https://breaking-bad-webapp.netlify.app",
     },
+    
     {
       id: 7,
       title: "Quiz App",
